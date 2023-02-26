@@ -4,12 +4,13 @@ import "./Nav.css";
 import { useAuth0 } from "@auth0/auth0-react";
 
 function Nav() {
+  const baseURL = "/heroic-crepe-128b5f.netlify.app";
   const logInClick = () => {
-    window.location = "/Login";
+    window.location = `${baseURL}/login`;
     console.log("Button clicked!");
   };
   const registerInClick = () => {
-    window.location = "/Register";
+    window.location = `${baseURL}/register`;
     console.log("Button clicked!");
   };
   const { loginWithRedirect } = useAuth0();

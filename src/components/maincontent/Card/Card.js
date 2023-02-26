@@ -25,8 +25,9 @@ import img20 from "../../../assets/pic20.jpg";
 import data from "../../Individual/Cart/data";
 
 function Card(props) {
+  const baseURL = "/heroic-crepe-128b5f.netlify.app";
   const handleClick = () => {
-    window.location = "/individual";
+    window.location = `${baseURL}/individual`;
     console.log("Button clicked!");
   };
 

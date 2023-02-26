@@ -6,8 +6,9 @@ import MyButton from "../MyButton/MyButton";
 import { motion, useScroll } from "framer-motion";
 import Cart from "../Cart/Cart";
 function Influencer() {
+  const baseURL = "/heroic-crepe-128b5f.netlify.app";
   const handleClick = () => {
-    window.location = "/cart";
+    window.location = `${baseURL}/cart`;
     console.log("Button clicked!");
   };
   return (

@@ -15,6 +15,7 @@ import { useState } from "react";
 import Loader from "./components/Loader/Loader";
 // import Poster from "./components/Poster/Poster";
 function App() {
+  const baseURL = "/heroic-crepe-128b5f.netlify.app";
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
@@ -29,14 +30,20 @@ function App() {
       ) : (
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<MainContent />}></Route>
-            <Route path="/individual" element={<Individual />}></Route>
-            <Route path="/Login" element={<Login />}></Route>
+            <Route path={`${baseURL}/`} element={<MainContent />}></Route>
+            <Route
+              path={`${baseURL}/individual`}
+              element={<Individual />}
+            ></Route>
+            <Route path={`${baseURL}/Login`} element={<Login />}></Route>
             {/* <Route path="/Register" element={<Register />}></Route> */}
-            <Route path="/details" element={<AccountDetail />}></Route>
-            <Route path="/cart" element={<Cart />}></Route>
-            <Route path="/payment" element={<Payment />}></Route>
-            <Route path="/paymentsuccess" element={<PaymentSuccess />}></Route>
+            <Route
+              path={`${baseURL}/details`}
+              element={<AccountDetail />}
+            ></Route>
+            <Route path={`${baseURL}/cart`} element={<Cart />}></Route>
+            <Route path={`${baseURL}/payment`} element={<Payment />}></Route>
+            {/* <Route path="/paymentsuccess" element={<PaymentSuccess />}></Route> */}
           </Routes>
         </BrowserRouter>
       )}
