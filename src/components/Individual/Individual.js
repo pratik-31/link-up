@@ -3,8 +3,8 @@ import "./Individual.css";
 import Influencer from "./Influencer/Influencer";
 import Services from "./Services/Services";
 import Testimonial from "./Testimonial/Testimonial";
-import SocialLinks from "./Socials/Socials";
-
+import Socio from "./Socio/Socio";
+import Footer from "../maincontent/Footer/Footer";
 function Individual() {
   return (
     <div>
@@ -12,6 +12,9 @@ function Individual() {
       <Services />
       <Testimonial />
       {/* <SocialLinks /> */}
+      
+      <Footer/>
+      <Socio/>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Influencer.css";
-import SocialLinks from "../Socials/Socials";
+// import SocialLinks from "../Socials/Socials";
+
 import "../Services/Services";
 import MyButton from "../MyButton/MyButton";
 import { motion, useScroll } from "framer-motion";
@@ -95,7 +96,7 @@ function Influencer() {
           culpa qui officia deserunt mollit anim id est."
         </p>
       </div>
-      <SocialLinks />
+     
       <div className="influencer__header">
         <h1>Services</h1>
       </div>
