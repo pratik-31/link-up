@@ -25,7 +25,7 @@ import img20 from "../../../assets/pic20.jpg";
 import data from "../../Individual/Cart/data";
 
 function Card(props) {
-  const baseURL = "";
+  const baseURL = "/jazzy-dasik-bc8137.netlify.app";
   const handleClick = () => {
     window.location = `${baseURL}/individual`;
     console.log("Button clicked!");

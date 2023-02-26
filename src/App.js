@@ -15,7 +15,7 @@ import { useState } from "react";
 import Loader from "./components/Loader/Loader";
 // import Poster from "./components/Poster/Poster";
 function App() {
-  const baseURL = "";
+  const baseURL = "/jazzy-dasik-bc8137.netlify.app";
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
@@ -30,7 +30,7 @@ function App() {
       ) : (
         <BrowserRouter>
           <Routes>
-            <Route path={`${baseURL}/`} element={<MainContent />}></Route>
+            <Route path={`${baseURL}`} element={<MainContent />}></Route>
             <Route
               path={`${baseURL}/individual`}
               element={<Individual />}

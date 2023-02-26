@@ -4,7 +4,7 @@ import "./Nav.css";
 import { useAuth0 } from "@auth0/auth0-react";
 
 function Nav() {
-  const baseURL = "";
+  const baseURL = "/jazzy-dasik-bc8137.netlify.app";
   const logInClick = () => {
     window.location = `${baseURL}/login`;
     console.log("Button clicked!");

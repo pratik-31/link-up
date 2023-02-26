@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Basket(props) {
-  const baseURL = "/enchanting-chimera-e799ab";
+  const baseURL = "/jazzy-dasik-bc8137.netlify.app";
   const handleClick = () => {
     window.location = `${baseURL}/payment`;
     console.log("Button clicked!");
