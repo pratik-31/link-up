@@ -27,11 +27,15 @@ import data from "../../Individual/Cart/data";
 function Card(props) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   const baseURL = "/jazzy-dasik-bc8137.netlify.app";
 =======
 >>>>>>> parent of 0dff9d2 (links updated)
 =======
 >>>>>>> parent of 0dff9d2 (links updated)
+=======
+  const baseURL = "";
+>>>>>>> parent of 51fe189 (change)
   const handleClick = () => {
     window.location = "/individual";
     console.log("Button clicked!");

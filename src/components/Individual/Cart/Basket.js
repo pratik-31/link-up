@@ -3,11 +3,15 @@ import React from "react";
 export default function Basket(props) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   const baseURL = "/jazzy-dasik-bc8137.netlify.app";
 =======
 >>>>>>> parent of 0dff9d2 (links updated)
 =======
 >>>>>>> parent of 0dff9d2 (links updated)
+=======
+  const baseURL = "/enchanting-chimera-e799ab";
+>>>>>>> parent of 51fe189 (change)
   const handleClick = () => {
     window.location = "/payment";
     console.log("Button clicked!");

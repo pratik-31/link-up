@@ -17,11 +17,15 @@ import Loader from "./components/Loader/Loader";
 function App() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   const baseURL = "/jazzy-dasik-bc8137.netlify.app";
 =======
 >>>>>>> parent of 0dff9d2 (links updated)
 =======
 >>>>>>> parent of 0dff9d2 (links updated)
+=======
+  const baseURL = "";
+>>>>>>> parent of 51fe189 (change)
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
@@ -38,7 +42,11 @@ function App() {
           <Routes>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <Route path={`${baseURL}`} element={<MainContent />}></Route>
+=======
+            <Route path={`${baseURL}/`} element={<MainContent />}></Route>
+>>>>>>> parent of 51fe189 (change)
             <Route
               path={`${baseURL}/individual`}
               element={<Individual />}
