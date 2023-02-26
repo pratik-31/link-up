@@ -5,7 +5,10 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 function Nav() {
 <<<<<<< HEAD
+<<<<<<< HEAD
   const baseURL = "/jazzy-dasik-bc8137.netlify.app";
+=======
+>>>>>>> parent of 0dff9d2 (links updated)
 =======
 >>>>>>> parent of 0dff9d2 (links updated)
   const logInClick = () => {

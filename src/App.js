@@ -16,7 +16,10 @@ import Loader from "./components/Loader/Loader";
 // import Poster from "./components/Poster/Poster";
 function App() {
 <<<<<<< HEAD
+<<<<<<< HEAD
   const baseURL = "/jazzy-dasik-bc8137.netlify.app";
+=======
+>>>>>>> parent of 0dff9d2 (links updated)
 =======
 >>>>>>> parent of 0dff9d2 (links updated)
   const [loading, setLoading] = useState(false);
@@ -34,12 +37,18 @@ function App() {
         <BrowserRouter>
           <Routes>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <Route path={`${baseURL}`} element={<MainContent />}></Route>
             <Route
               path={`${baseURL}/individual`}
               element={<Individual />}
             ></Route>
             <Route path={`${baseURL}/Login`} element={<Login />}></Route>
+=======
+            <Route path="/" element={<MainContent />}></Route>
+            <Route path="/individual" element={<Individual />}></Route>
+            <Route path="/Login" element={<Login />}></Route>
+>>>>>>> parent of 0dff9d2 (links updated)
 =======
             <Route path="/" element={<MainContent />}></Route>
             <Route path="/individual" element={<Individual />}></Route>
