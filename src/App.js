@@ -15,7 +15,7 @@ import { useState } from "react";
 import Loader from "./components/Loader/Loader";
 // import Poster from "./components/Poster/Poster";
 function App() {
-  const baseURL = "/heroic-crepe-128b5f.netlify.app";
+  const baseURL = "/enchanting-chimera-e799ab";
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);

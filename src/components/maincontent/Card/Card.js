@@ -25,7 +25,7 @@ import img20 from "../../../assets/pic20.jpg";
 import data from "../../Individual/Cart/data";
 
 function Card(props) {
-  const baseURL = "/heroic-crepe-128b5f.netlify.app";
+  const baseURL = "/enchanting-chimera-e799ab";
   const handleClick = () => {
     window.location = `${baseURL}/individual`;
     console.log("Button clicked!");

@@ -7,7 +7,7 @@ import MyButton from "../MyButton/MyButton";
 import { motion, useScroll } from "framer-motion";
 import Cart from "../Cart/Cart";
 function Influencer() {
-  const baseURL = "/heroic-crepe-128b5f.netlify.app";
+  const baseURL = "/enchanting-chimera-e799ab";
   const handleClick = () => {
     window.location = `${baseURL}/cart`;
     console.log("Button clicked!");
@@ -96,7 +96,7 @@ function Influencer() {
           culpa qui officia deserunt mollit anim id est."
         </p>
       </div>
-     
+
       <div className="influencer__header">
         <h1>Services</h1>
       </div>

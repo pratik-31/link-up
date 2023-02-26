@@ -4,7 +4,7 @@ import "./Nav.css";
 import { useAuth0 } from "@auth0/auth0-react";
 
 function Nav() {
-  const baseURL = "/heroic-crepe-128b5f.netlify.app";
+  const baseURL = "/enchanting-chimera-e799ab";
   const logInClick = () => {
     window.location = `${baseURL}/login`;
     console.log("Button clicked!");
