@@ -25,9 +25,12 @@ import img20 from "../../../assets/pic20.jpg";
 import data from "../../Individual/Cart/data";
 
 function Card(props) {
+<<<<<<< HEAD
   const baseURL = "/jazzy-dasik-bc8137.netlify.app";
+=======
+>>>>>>> parent of 0dff9d2 (links updated)
   const handleClick = () => {
-    window.location = `${baseURL}/individual`;
+    window.location = "/individual";
     console.log("Button clicked!");
   };
 

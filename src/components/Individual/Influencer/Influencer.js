@@ -7,9 +7,12 @@ import MyButton from "../MyButton/MyButton";
 import { motion, useScroll } from "framer-motion";
 import Cart from "../Cart/Cart";
 function Influencer() {
+<<<<<<< HEAD
   const baseURL = "/jazzy-dasik-bc8137.netlify.app";
+=======
+>>>>>>> parent of 0dff9d2 (links updated)
   const handleClick = () => {
-    window.location = `${baseURL}/cart`;
+    window.location = "/cart";
     console.log("Button clicked!");
   };
   return (

@@ -1,9 +1,12 @@
 import React from "react";
 
 export default function Basket(props) {
+<<<<<<< HEAD
   const baseURL = "/jazzy-dasik-bc8137.netlify.app";
+=======
+>>>>>>> parent of 0dff9d2 (links updated)
   const handleClick = () => {
-    window.location = `${baseURL}/payment`;
+    window.location = "/payment";
     console.log("Button clicked!");
   };
   const { cartItems, onAdd, onRemove } = props;
@@ -11,7 +14,9 @@ export default function Basket(props) {
   const taxPrice = itemsPrice * 0.14;
   const shippingPrice = itemsPrice > 2000 ? 0 : 20;
   // const totalPrice = itemsPrice + taxPrice + shippingPrice;
-  const totalPrice = itemsPrice;
+  const totalPrice = itemsPrice ;
+  
+  
 
   return (
     <aside className="block col-1">

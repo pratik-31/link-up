@@ -4,13 +4,16 @@ import "./Nav.css";
 import { useAuth0 } from "@auth0/auth0-react";
 
 function Nav() {
+<<<<<<< HEAD
   const baseURL = "/jazzy-dasik-bc8137.netlify.app";
+=======
+>>>>>>> parent of 0dff9d2 (links updated)
   const logInClick = () => {
-    window.location = `${baseURL}/login`;
+    window.location = "/Login";
     console.log("Button clicked!");
   };
   const registerInClick = () => {
-    window.location = `${baseURL}/register`;
+    window.location = "/Register";
     console.log("Button clicked!");
   };
   const { loginWithRedirect } = useAuth0();
