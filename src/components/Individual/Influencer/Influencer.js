@@ -7,7 +7,7 @@ import MyButton from "../MyButton/MyButton";
 import { motion, useScroll } from "framer-motion";
 import Cart from "../Cart/Cart";
 function Influencer() {
-  const baseURL = "/enchanting-chimera-e799ab";
+  const baseURL = "";
   const handleClick = () => {
     window.location = `${baseURL}/cart`;
     console.log("Button clicked!");
